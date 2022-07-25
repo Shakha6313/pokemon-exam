@@ -20,3 +20,27 @@
   body{
     font-family: 'Fredoka';
   }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .pokilogo{
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .muvilogo{
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+.wider{
+  width: 400px;
+}
+
+.higher{
+  width: 250px;
+}
