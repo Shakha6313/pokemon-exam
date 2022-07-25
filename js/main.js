@@ -69,6 +69,9 @@ function render(array) {
 
         let newP2 = document.createElement("p")
         newLi.appendChild(newP2)
+
+        let newA = document.createElement("a")
+        newLi.appendChild(newA)
         
         if (array[i].name) {
             newImg.src = array[i].img
@@ -84,6 +87,9 @@ function render(array) {
             newH3.classList.add("text-center", "mt-3")
             newP.textContent = array[i].imdb_rating
             newP2.textContent = array[i].movie_year
+            newA.textContent = "Watch Trailer"
+            newA.href = `https://www.youtube.com/watch?v=${array[i].ytid}`
+            newA.target = "_blank"
         }
     }   
 } 
